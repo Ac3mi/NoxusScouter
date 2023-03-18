@@ -1,0 +1,14 @@
+C:\Users\anoni\source\repos\NoxusScouter\NoxusScouter\bin\Release\NoxusScouter.exe.config
+C:\Users\anoni\source\repos\NoxusScouter\NoxusScouter\bin\Release\NoxusScouter.exe
+C:\Users\anoni\source\repos\NoxusScouter\NoxusScouter\bin\Release\NoxusScouter.pdb
+C:\Users\anoni\source\repos\NoxusScouter\NoxusScouter\bin\Release\Newtonsoft.Json.dll
+C:\Users\anoni\source\repos\NoxusScouter\NoxusScouter\bin\Release\Newtonsoft.Json.xml
+C:\Users\anoni\source\repos\NoxusScouter\NoxusScouter\obj\Release\NoxusScouter.csproj.AssemblyReference.cache
+C:\Users\anoni\source\repos\NoxusScouter\NoxusScouter\obj\Release\NoxusScouter.csproj.SuggestedBindingRedirects.cache
+C:\Users\anoni\source\repos\NoxusScouter\NoxusScouter\obj\Release\NoxusScouter.Form1.resources
+C:\Users\anoni\source\repos\NoxusScouter\NoxusScouter\obj\Release\NoxusScouter.Properties.Resources.resources
+C:\Users\anoni\source\repos\NoxusScouter\NoxusScouter\obj\Release\NoxusScouter.csproj.GenerateResource.cache
+C:\Users\anoni\source\repos\NoxusScouter\NoxusScouter\obj\Release\NoxusScouter.csproj.CoreCompileInputs.cache
+C:\Users\anoni\source\repos\NoxusScouter\NoxusScouter\obj\Release\NoxusScouter.csproj.CopyComplete
+C:\Users\anoni\source\repos\NoxusScouter\NoxusScouter\obj\Release\NoxusScouter.exe
+C:\Users\anoni\source\repos\NoxusScouter\NoxusScouter\obj\Release\NoxusScouter.pdb
