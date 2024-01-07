@@ -1,4 +1,4 @@
-﻿using Newtonsoft.Json.Linq;
+using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -129,16 +129,19 @@ namespace NoxusScouter
             int index = 0;
             foreach (var summoner in summoners["participants"])
             {
-                HttpClient client = new HttpClient();
-                var result = await client.GetStringAsync("https://jgdiff.lol/api/v1/profile?nick=" + summoner["name"].ToString());
-                JObject final = JObject.Parse(result);
-                players.Add(summoner["name"].ToString());
+                //HttpClient client = new HttpClient();
+                //var result = await client.GetStringAsync("https://acemi.dev/api/v1/profile?nick=" + summoner["name"].ToString());
+                //JObject final = JObject.Parse(result);
 
-                objSummoner[index].pictureBox.Load(final["icon"].ToString());
-                objSummoner[index].lblnick.Text = summoner["name"].ToString();
-                objSummoner[index].lblOP.Name = summoner["name"].ToString();
-                objSummoner[index].lblU.Name = summoner["name"].ToString();
-                objSummoner[index].lblLoG.Name = summoner["name"].ToString();
+                string playerName = summoner["game_name"].ToString() + "-" + summoner["game_tag"];
+
+                players.Add(playerName);
+
+                //objSummoner[index].pictureBox.Load(final["icon"].ToString());
+                objSummoner[index].lblnick.Text = playerName;
+                objSummoner[index].lblOP.Name = playerName;
+                objSummoner[index].lblU.Name = playerName;
+                objSummoner[index].lblLoG.Name = playerName;
                 index++;
             }
             btnRefresh.Enabled = true;
